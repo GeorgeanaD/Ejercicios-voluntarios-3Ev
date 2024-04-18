@@ -1,0 +1,23 @@
+package MiPrimerCodigo;
+
+public class Mascotacuidados extends Mascota{
+	private String cuidados;
+
+	
+
+	public Mascotacuidados(String nombre, String especie, double peso, int edad, String cuidados) {
+		super(nombre, especie, peso, edad);
+		this.cuidados = cuidados;
+	}
+
+	public String getCuidados() {
+		return cuidados;
+	}
+
+	public void setCuidados(String cuidados) {
+		this.cuidados = cuidados;
+	}
+
+	
+
+}
