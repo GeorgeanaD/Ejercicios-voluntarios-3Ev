@@ -1,0 +1,24 @@
+package MiPrimerCodigo;
+//idea copiada de programas de años anteriores, contiene encapsulacion,getters-setters,herencia y polimorfismo
+public class ManejaMascota {
+
+	public ManejaMascota() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		Mascota miLindogatito;
+		Mascotacuidados miLindatortuga;
+		Mascota miLindapaloma;
+		miLindogatito= new Mascota ("sussy", "anaranjado", 7, 2);
+		miLindatortuga= new Mascotacuidados("mapi", "africana", 2, 1, "pata rota");
+		miLindapaloma= new Mascota("felipe");
+		System.out.println("miau! me llamo:"+ miLindogatito.getNombre());
+		System.out.println("necesito ayuda con mi: "+miLindatortuga.getCuidados());
+		System.out.println("currrucurru, me presento, soy:"+miLindapaloma.getNombre());
+
+	}
+
+}
