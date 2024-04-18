@@ -1,5 +1,5 @@
 package MiPrimerCodigo;
-//idea copiada de programas de años anteriores, contiene encapsulacion,getters-setters,herencia y polimorfismo
+//idea copiada de programas de años anteriores, contiene encapsulacion,getters-setters,herencia y polimorfismo (todo lo visto en clase)
 public class ManejaMascota {
 
 	public ManejaMascota() {
